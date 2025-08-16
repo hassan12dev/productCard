@@ -1,0 +1,55 @@
+.card {
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.badge {
+  background: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.collection {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 15px auto;
+  display: block;
+}
+
+.contact {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.shop-btn {
+  background: yellow;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.shop-btn:hover {
+  background: gold;
+}
